@@ -1,9 +1,9 @@
 package flower;
 
 public abstract class Item {
-    public double price;
+    private double price;
 
-    public double getPrice() {
+    private double getPrice() {
         return 0;
     }
     

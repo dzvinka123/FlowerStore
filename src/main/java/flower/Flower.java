@@ -6,7 +6,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @AllArgsConstructor @Setter @Getter @NoArgsConstructor
-public class Flower{
+public class Flower {
     private double sepalLength;
     private FlowerColor color;
     private double price;
