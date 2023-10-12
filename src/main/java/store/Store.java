@@ -7,7 +7,7 @@ import filter.SearchFilter;
 import flower.Item;
 
 public class Store {
-    static List<Item> items;
+    private List<Item> items;
 
     public List<Item> search(SearchFilter filter) {
         List<Item> foundsitem = new ArrayList<>();
