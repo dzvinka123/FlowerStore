@@ -14,7 +14,7 @@ public class Flower {
     private FlowerType flowerType;
 
 
-    public Flower(Flower flower){
+    public Flower(Flower flower) {
         this.color = flower.color;
         this.flowerType = flower.flowerType;
         this.price = flower.price;
