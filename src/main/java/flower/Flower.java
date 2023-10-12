@@ -1,4 +1,4 @@
-package flower.store;
+package flower;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -6,13 +6,12 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @AllArgsConstructor @Setter @Getter @NoArgsConstructor
-public class Flower {
+public class Flower{
     private double sepalLength;
     private FlowerColor color;
     private double price;
     @Getter
     private FlowerType flowerType;
-
 
     public Flower(Flower flower) {
         this.color = flower.color;

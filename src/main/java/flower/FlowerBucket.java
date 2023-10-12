@@ -1,9 +1,13 @@
-package flower.store;
+package flower;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class FlowerBucket {
+
+import lombok.Getter;
+
+@ Getter
+public class FlowerBucket extends Item{
     private List<FlowerPack> flowerPacks = new ArrayList<>();
 
     public void addFlowerPack(FlowerPack flowerPack) {
