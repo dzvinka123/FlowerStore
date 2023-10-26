@@ -1,5 +1,5 @@
-package Payment;
+// package Payment;
 
-public abstract class Payment {
+// public abstract class Payment {
     
-}
+// }
